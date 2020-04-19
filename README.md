@@ -9,9 +9,12 @@ I had to do it to get my setup to work as intended and saw other people requesti
 
 So, back to this fork:
 
-The master branch will hold Tevo's original zip archives;
-Branch 20190716_dualz_bltouch_tmc2208 holds the config I'm using that combines all the available extras at the moment, as stated above.
-Will update the branch if required, but for now it all seems to be working as intended - please improve upon/provide feedback if you can, so that until a better solution is available, we may all benefit from better settings/extras support/etc. on the firmware.
+* **master** - holds Tevo's original zip archives
+* **20190716_dualz_bltouch_tmc2208** - holds the config that combines all the available extras, as stated above
+* **20200419_tmc2208_all** - branched off of **20190716_dualz_bltouch_tmc2208** to enable TMC 2208 for all stepper drivers
+  * X, Y, both Z and the Extruder
+  * Configured all stepper drivers to use 1.19V using the built-in potentiometer and a multimeter
+  * Uploading after having validated the settings with a successul print job with BQ PLA
+  * No skipped steps noticed on any of the stepper motors
+  * Currently, the only noise being produced is from the extra 120mm side fan on the bottom (custom mod) and the 40mm extruder fans included in the design
 
-
-Thank you.
