@@ -14,7 +14,10 @@ So, back to this fork:
 * **20200419_tmc2208_all** - branched off of **20190716_dualz_bltouch_tmc2208** to enable TMC 2208 for all stepper drivers
   * X, Y, both Z and the Extruder
   * Configured all stepper drivers to use 1.19V using the built-in potentiometer and a multimeter
-  * Uploading after having validated the settings with a successul print job with BQ PLA
+* Be sure to watch this YouTube clip series for the assembly -> https://www.youtube.com/playlist?list=PLueaH1hnPf0CxckQgwMrIIDcrbGdx5qNo
+  * Go through the comment section as well, before starting the assembly
+* Using Prusa Slicer 2.20 -> https://github.com/prusa3d/PrusaSlicer/releases/tag/version_2.2.0
+* Using Ender 3 Profile -> https://www.thingiverse.com/thing:3126776 [Ender3.rar]
+* Committing these changes after having validated the settings with a successul print job with BQ PLA
   * No skipped steps noticed on any of the stepper motors
   * Currently, the only noise being produced is from the extra 120mm side fan on the bottom (custom mod) and the 40mm extruder fans included in the design
-
